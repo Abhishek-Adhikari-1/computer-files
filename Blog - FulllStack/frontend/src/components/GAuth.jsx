@@ -1,0 +1,28 @@
+const GAuth = () => {
+	const handleGithubAuth = async () => {};
+
+	return (
+		<>
+			<button
+				onClick={handleGithubAuth}
+				type="button"
+				className="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+			>
+				<span className="sr-only">Sign up with GitHub</span>
+				<svg
+					className="w-5 h-5"
+					fill="currentColor"
+					viewBox="0 0 24 24"
+				>
+					<path
+						fillRule="evenodd"
+						fill="#0D1117"
+						d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.332-1.758-1.332-1.758-1.086-.744.084-.729.084-.729 1.205.085 1.838 1.238 1.838 1.238 1.067 1.835 2.801 1.305 3.487.998.108-.775.418-1.305.762-1.605-2.665-.3-5.467-1.335-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.007-.322 3.3 1.23.957-.267 1.983-.4 3.003-.404 1.02.004 2.047.137 3.005.404 2.28-1.552 3.283-1.23 3.283-1.23.655 1.653.243 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .32.218.694.825.577C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+					></path>
+				</svg>
+			</button>
+		</>
+	);
+};
+
+export default GAuth;

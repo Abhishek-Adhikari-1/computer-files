@@ -1,0 +1,85 @@
+4
+Rajesh Hamal
+Tmro manaiko fultipi
+CLASSICAL
+8
+Track 1
+music/track1.mp3
+Track 2
+music/track2.mp3
+Track 3
+music/track3.mp3
+Track 4
+music/track4.mp3
+Track 5
+music/track5.mp3
+Track 6
+music/track6.mp3
+Track 7
+music/track7.mp3
+Track 8
+music/track8.mp3
+Taylor Swift
+Parachutes in the sky
+POP
+6
+Track 1
+music/track1.mp3
+Track 2
+music/track2.mp3
+Track 3
+music/track3.mp3
+Track 4
+music/track4.mp3
+Track 5
+music/track5.mp3
+Track 6
+music/track6.mp3
+Shreya Ghoshal
+Tumhara dil alive
+ROCK
+17
+Track 1
+music/track1.mp3
+Track 2
+music/track2.mp3
+Track 3
+music/track3.mp3
+Track 4
+music/track4.mp3
+Track 5
+music/track5.mp3
+Track 6
+music/track6.mp3
+Track 7
+music/track7.mp3
+Track 8
+music/track8.mp3
+Track 9
+music/track9.mp3
+Track 10
+music/track10.mp3
+Track 11
+music/track11.mp3
+Track 12
+music/track12.mp3
+Track 13
+music/track13.mp3
+Track 14
+music/track14.mp3
+Track 15
+music/track15.mp3
+Track 16
+music/track16.mp3
+Track 17
+music/track17.mp3
+Sonu Nigam
+Aakhri Kadam Tak
+JAZZ
+3
+Track 1
+music/track1.mp3
+Track 2
+music/track2.mp3
+Track 3
+music/track3.mp3

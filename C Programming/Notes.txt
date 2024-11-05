@@ -1,0 +1,18 @@
+OP-code ->  Operation code -> +, -, /, *, %
+
+Operand -> Data or Value -> a, b, c, d = 10
+
+Array
+
+Primitive and non-primitive
+
+Types of array -> One dimensional array and Two dimensional array
+
+Control Statement -> 
+
+If -> Else If -> Else
+
+Switch statement
+
+Functions -> 
+    A function is a self contained program segment that carries out some specific well defined task

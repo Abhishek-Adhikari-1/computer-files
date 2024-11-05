@@ -1,0 +1,84 @@
+@keyframes underlineIn {
+	from {
+		width: 0;
+		left: 0;
+	}
+	to {
+		width: 100%;
+		left: 0;
+	}
+}
+
+@keyframes underlineOut {
+	from {
+		width: 100%;
+		left: 0;
+	}
+	to {
+		width: 0;
+		left: 100%;
+	}
+}
+
+.link-container {
+	position: relative;
+	display: inline-block;
+}
+
+.underline {
+	position: absolute;
+	bottom: -0px;
+	left: 0;
+	height: 2px;
+	border-radius: 5px;
+	background: #6366f1;
+	width: 0;
+	transition: width 0.3s, left 0.3s;
+}
+
+.link-container:hover .underline {
+	animation: underlineIn 0.3s forwards;
+}
+
+.link-container:hover {
+	animation: none;
+}
+
+.link-container:not(:hover) .underline {
+	animation: underlineOut 0.3s forwards;
+}
+
+.link-container.active .underline {
+	width: 100%;
+	animation: none;
+}
+
+@keyframes slideDown {
+	from {
+		opacity: 0;
+		margin-top: -30px;
+	}
+	to {
+		opacity: 1;
+		margin-top: 0;
+	}
+}
+
+.animate-slideDown {
+	animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		margin-bottom: -40px;
+	}
+	to {
+		opacity: 1;
+		margin-bottom: 0;
+	}
+}
+
+.animate-slideUp {
+	animation: slideUp 0.3s ease-out forwards;
+}
